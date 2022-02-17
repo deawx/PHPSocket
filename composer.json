@@ -1,0 +1,25 @@
+{
+    "name": "muhametsafak/php-socket",
+    "description": "PHP Socket (TCP, TLS, UDP, SSL) Server/Client Library",
+    "keywords": ["php", "socket", "tcp", "tls", "udp", "ssl", "server", "client", "socket server", "socket client"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PHPSocket\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammet ŞAFAK",
+            "email": "info@muhammetsafak.com.tr",
+            "role": "Developer",
+            "homepage": "https://www.muhammetsafak.com.tr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "ext-sockets": "*"
+    }
+}
